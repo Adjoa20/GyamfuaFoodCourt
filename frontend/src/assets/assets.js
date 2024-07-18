@@ -5,6 +5,7 @@ import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
+import menu_4 from './menu_4'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -13,6 +14,7 @@ import food_4 from './food_4.png'
 import food_5 from './food_5.png'
 import food_6 from './food_6.png'
 import food_7 from './food_7.png'
+import food_8 from './food_8'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -64,6 +66,10 @@ export const menu_list = [
     {
         menu_name: "Rice",
         menu_image: menu_3
+    },
+    {
+        menu_name: "Water",
+        menu_image: menu_4
     },
     ]
 
@@ -118,5 +124,12 @@ export const food_list = [
         price: 20,
         description: "",
         category: "Rice"
+    }, {
+        _id: "8",
+        name: "Mineral Water",
+        image: food_8,
+        price: 20,
+        description: "",
+        category: "Water"
     }, 
 ]
